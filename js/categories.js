@@ -13,10 +13,10 @@ function loadProductsByCategory(category) {
     // Example function to load products by category
     const productList = document.getElementById('list');
     const exampleProducts = [
-        { name: 'Album 1', category: 'album', image: '/hallyuin-native-main/assets/example1.jpg' },
-        { name: 'Merchandise 1', category: 'merchandise', image: '/hallyuin-native-main/assets/example2.jpg' },
-        { name: 'Photobook 1', category: 'photobook', image: '/hallyuin-native-main/assets/example3.jpg' },
-        { name: 'Disc 1', category: 'disc', image: '/hallyuin-native-main/assets/example4.jpg' },
+        { name: 'Album 1', category: 'album', image: '../assets/example1.jpg' },
+        { name: 'Merchandise 1', category: 'merchandise', image: '../assets/example2.jpg' },
+        { name: 'Photobook 1', category: 'photobook', image: '../assets/example3.jpg' },
+        { name: 'Disc 1', category: 'disc', image: '../assets/example4.jpg' },
         // Add more products here
     ];
 

@@ -11,7 +11,7 @@
     <title>Hallyuin</title>
 
     <!-- CSS-->
-    <link href="/hallyuin-native-main/css/main-style.css" rel="stylesheet" type="text/css">
+    <link href="../css/main-style.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 

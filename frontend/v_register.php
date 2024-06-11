@@ -11,7 +11,7 @@
     <title>Hallyuin</title>
 
     <!-- CSS-->
-    <link href="/hallyuin-native-main/css/main-style.css" rel="stylesheet" type="text/css">
+    <link href="../css/main-style.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
@@ -45,10 +45,10 @@
                                     <form>
 
                                         <div class="d-flex justify-content-center align-items-center mb-3 pb-1">
-                                            <img src="/hallyuin-native-main/assets/logo.png" alt="" width="150">
+                                            <img src="../assets/logo.png" alt="" width="150">
                                         </div>
 
-                                        <span class="h2 fw-bold ">Log In</span>
+                                        <span class="h2 fw-bold ">Register</span>
                                         <h5 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Find Your Kpop needs with Us!</h5>
 
 
