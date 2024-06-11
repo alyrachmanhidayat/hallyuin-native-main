@@ -107,7 +107,7 @@
                             <div class="card-header py-3">
                                 <h5 class="mb-0">Shopping Cart</h5>
                             </div>
-                            <div class="card-body">
+                            <div class="card-body" id="cart-card">
                                 <!-- Single item -->
                                 <div class="row item">
                                     <div class="col-lg-3 col-md-12 mb-4 mb-lg-0">
@@ -121,7 +121,7 @@
                                             </a>
                                         </div>
                                     </div>
-                                    <div class="col-lg-5 col-md-6 mb-4 mb-lg-0">
+                                    <div class="col-lg-5 col-md-6 mb-4 mb-lg-0 div-deskripsi">
                                         <!-- Data -->
                                         <p><strong>ALBUM</strong></p>
                                         <p>deskripsi abcdefghijklmnopqrstuvwxyz </p>
@@ -129,11 +129,11 @@
                                         <button type="button" class="btn btn-detele"
                                             style="color: rgb(255, 255, 255); background-color: #fc0505;">Delete</button>
                                         <button type="button" class="btn btn-move-to-wishlist"
-                                            style="color: rgb(255, 255, 255); background-color: #f2d541;"
-                                            onclick="moveToWishlist(this)">Add to Wishlist</button>
+                                            style="color: rgb(255, 255, 255); background-color: #f2d541;">Add to
+                                            Wishlist</button>
 
                                     </div>
-                                    <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                                    <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 div-quantity">
                                         <!-- Quantity -->
                                         <div class="d-flex mb-4" style="max-width: 300px">
                                             <button class="btn btn-primary px-3 me-2 decrement"
@@ -168,7 +168,7 @@
                                             </a>
                                         </div>
                                     </div>
-                                    <div class="col-lg-5 col-md-6 mb-4 mb-lg-0">
+                                    <div class="col-lg-5 col-md-6 mb-4 mb-lg-0 div-deskripsi">
                                         <!-- Data -->
                                         <p><strong>ALBUM</strong></p>
                                         <p>deskripsi abcdefghijklmnopqrstuvwxyz </p>
@@ -179,7 +179,7 @@
                                             style="color: rgb(255, 255, 255); background-color: #f2d541;">Add to
                                             Wishlist</button>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                                    <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 div-quantity">
                                         <!-- Quantity -->
                                         <div class="d-flex mb-4" style="max-width: 300px">
                                             <button class="btn btn-primary px-3 me-2 decrement"
@@ -204,7 +204,7 @@
                         </div>
 
                         <div class="card mb-4">
-                            <div class="card-body">
+                            <div class="card-body" id="wishlist-card">
                                 <p><strong>WISHLIST ITEM</strong></p>
                                 <div class="row item">
                                     <div class="col-lg-3 col-md-12 mb-4 mb-lg-0">
@@ -219,19 +219,16 @@
                                             </a>
                                         </div>
                                     </div>
-                                    <div class="col-lg-5 col-md-6 mb-4 mb-lg-0">
+                                    <div class="col-lg-5 col-md-6 mb-4 mb-lg-0 div-deskripsi">
                                         <!-- Data -->
                                         <p><strong>ALBUM</strong></p>
                                         <p>deskripsi abcdefghijklmnopqrstuvwxyz </p>
                                         <p>Kategori : </p>
-                                        <strong class="price">45000</strong> <br>
+                                        <strong class="price">45.000</strong> <br>
                                         </button>
                                         <button type="button" class="btn btn-add-to-cart"
                                             style="color: rgb(255, 255, 255); background-color: #7f4d8c;">Add to
                                             Cart</button>
-                                    </div>
-                                    <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
-                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -267,7 +264,7 @@
                                     </li>
                                     <li class="list-group-item d-flex justify-content-between align-items-center px-0">
                                         Shipping
-                                        <span id="total-amount">0</span>
+                                        <span id="total-shipping">0</span>
                                     </li>
                                     <li
                                         class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 mb-3">
